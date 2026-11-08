@@ -16,7 +16,7 @@ Cartões de acesso, em duas linhas:
 | 1 | **Dashboard** | Painel geoquímico: diagramas de classificação, critérios de Peate, ETR, Harker e mapa sincronizado |
 | 1 | **Seção 2D interativa** | Mapa em planta + seção transversal sincronizados, com linhas de corte livres e traçados fixos |
 | 2 | **Modelo 3D interativo** | Bloco 3D com topografia, unidades, soleiras/diques e ferramenta de corte |
-| 2 | **Zoom 3D** | Quatro recortes de detalhe em blocos sólidos com corte nos eixos X/Y |
+| 2 | **Zoom 3D** | Cinco blocos 3D de detalhe (quatro recortes e o Horst esquemático) com corte nos eixos X/Y |
 | 2 | **3D regional** | Panorama 3D do norte de SC com relevo, lineamentos, poços e rosetas de direção |
 
 Inclui ainda a síntese da identidade visual do projeto (paleta, regras de uso e tipografia).
