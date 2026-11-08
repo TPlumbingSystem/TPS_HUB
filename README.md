@@ -1,16 +1,93 @@
-# TAIÓ — Sistema Intrusivo · Plumbing System
+# Taió Plumbing System — Hub
 
-Página inicial que reúne as 4 aplicações web do projeto (Mestrado em Geologia,
-UFSC — sistema intrusivo de Taió, SC), com a identidade visual TAIÓ:
+**Versão 1.0** · Projeto *Taió Plumbing System* (Mestrado em Geologia, UFSC)
 
-- [TPS_MOD3D](https://github.com/TPlumbingSystem/TPS_MOD3D) — modelo 3D interativo
-- [TPS_SEC2D](https://github.com/TPlumbingSystem/TPS_SEC2D) — seção 2D interativa
-- [TPS_DASH](https://github.com/TPlumbingSystem/TPS_DASH) — dashboard geoquímico
-- [TPS_WEBM](https://github.com/TPlumbingSystem/TPS_WEBM) — webmap em tela cheia
-- [ZOOM3D](https://github.com/Thubaraleii/ZOOM3D) — 4 blocos 3D de detalhe (Zoom 3D)
-- [PANORAMA](https://github.com/Thubaraleii/PANORAMA) — panorama 3D regional do norte de SC (3D regional)
+🔗 **Acesso:** <https://tplumbingsystem.github.io/TPS_HUB/>
 
-Abra `index.html` direto no navegador, ou acesse a versão publicada (GitHub Pages)
-deste repositório.
+Página inicial estática que reúne as aplicações web do projeto de modelagem do sistema intrusivo de Taió (SC).
 
-Criado por Afonso Henrique de Jesus.
+## Conteúdo
+
+Cartões de acesso, em duas linhas:
+
+| Linha | Aplicação | Descrição |
+|---|---|---|
+| 1 | **Webmap** | Mapa Leaflet em tela cheia com geologia, estruturas, poços, geoquímica e camadas de referência |
+| 1 | **Dashboard** | Painel geoquímico: diagramas de classificação, critérios de Peate, ETR, Harker e mapa sincronizado |
+| 1 | **Seção 2D interativa** | Mapa em planta + seção transversal sincronizados, com linhas de corte livres e traçados fixos |
+| 2 | **Modelo 3D interativo** | Bloco 3D com topografia, unidades, soleiras/diques e ferramenta de corte |
+| 2 | **Zoom 3D** | Quatro recortes de detalhe em blocos sólidos com corte nos eixos X/Y |
+| 2 | **3D regional** | Panorama 3D do norte de SC com relevo, lineamentos, poços e rosetas de direção |
+
+Inclui ainda a síntese da identidade visual do projeto (paleta, regras de uso e tipografia).
+
+## Identidade visual
+
+| Cor | Hex | Uso |
+|---|---|---|
+| Deep Navy | `#071729` | Fundo principal |
+| Geological Blue | `#0C2945` | Painéis e fundo secundário |
+| Signal Cyan | `#13BBE6` | Destaques da interface |
+| Magma Red | `#FF493D` | Reservado a intrusões e condutos magmáticos |
+| Strata White | `#F1F5F9` | Texto sobre fundo escuro |
+| Rock Grey | `#71869A` | Texto secundário |
+
+Tipografia: Montserrat (títulos), Inter (texto), IBM Plex Mono (dados).
+
+## Uso
+
+Abra `index.html` no navegador ou acesse a versão publicada (GitHub Pages). Não requer instalação nem servidor.
+
+## Estrutura
+
+```
+index.html        página do hub
+assets/           logotipo, símbolo e ícones
+```
+
+## Referências
+
+1. Milani, E. J.; Melo, J. H. G.; Souza, P. A.; Fernandes, L. A.; França, A. B. (2007). Bacia do Paraná. *Boletim de Geociências da Petrobras*, 15(2), 265–287.
+2. Schneider, R. L.; Mühlmann, H.; Tommasi, E.; Medeiros, R. A.; Daemon, R. F.; Nogueira, A. A. (1974). Revisão estratigráfica da Bacia do Paraná. In: *Anais do 28º Congresso Brasileiro de Geologia*, Porto Alegre, SBG, 1, 41–65.
+3. Frank, H. T.; Gomes, M. E. B.; Formoso, M. L. L. (2009). Review of the areal extent and the volume of the Serra Geral Formation, Paraná Basin, South America. *Pesquisas em Geociências*, 36(1), 49–57.
+4. Peate, D. W. (1997). The Paraná–Etendeka Province. In: Mahoney, J. J.; Coffin, M. F. (eds.), *Large Igneous Provinces*. AGU Geophysical Monograph 100, 217–245.
+5. Agafonkin, V. **Leaflet** — an open-source JavaScript library for interactive maps. <https://leafletjs.com>
+6. Plotly Technologies Inc. (2015). **Collaborative data science** (Plotly.js). Montréal. <https://plot.ly>
+7. Mapzen / Amazon Web Services. **Terrain Tiles** (formato Terrarium). <https://registry.opendata.aws/terrain-tiles/>
+8. OpenStreetMap contributors. **OpenStreetMap**. <https://www.openstreetmap.org/copyright>
+9. CPRM/SGB — Serviço Geológico do Brasil. **Geologia e Recursos Minerais do Estado de Santa Catarina — Mapa Geológico 1:500.000 (SIG SC)**. <https://geosgb.sgb.gov.br>
+10. ANP — Agência Nacional do Petróleo, Gás Natural e Biocombustíveis. **Dados abertos — poços**. <https://www.gov.br/anp>
+11. Harris, C. R. et al. (2020). Array programming with NumPy. *Nature*, 585, 357–362.
+12. Virtanen, P. et al. (2020). SciPy 1.0: fundamental algorithms for scientific computing in Python. *Nature Methods*, 17, 261–272.
+13. Jordahl, K. et al. **GeoPandas**. Zenodo. <https://geopandas.org>; Gillies, S. et al. **Shapely** e **Rasterio**. <https://github.com/shapely/shapely>, <https://github.com/rasterio/rasterio>.
+
+## Licença e uso
+
+- **Código** (scripts de geração e JavaScript das páginas): licença **MIT** — ver [`LICENSE`](LICENSE).
+- **Produtos gerados** (HTML, figuras, tabelas derivadas): **CC BY 4.0** — uso, adaptação e redistribuição permitidos com atribuição ao autor.
+- **Dados de terceiros** incorporados mantêm as licenças e os termos das fontes originais (tabela em *Créditos e fontes de dados*).
+- Os modelos são **interpretativos** e dependem da qualidade e da densidade dos dados de entrada; **não substituem** estudo geológico, hidrogeológico ou geotécnico de detalhe, nem devem ser usados como base única para decisões de engenharia, perfuração ou licenciamento.
+- Fornecido “como está”, sem garantias de qualquer tipo.
+
+## Créditos e fontes de dados
+
+| Fonte | Uso | Termos |
+|---|---|---|
+| Levantamento de campo do autor (pontos, estruturas, geoquímica, MDE de drone) | Dados primários da área de Taió | CC BY 4.0 (autor) |
+| CPRM/SGB — Mapa Geológico do Estado de Santa Catarina 1:500.000 (SIG SC) | Geologia regional, falhas, fraturas e diques regionais | Dados abertos CPRM/SGB — citar a fonte |
+| ANP — Tabela de poços (dados abertos) | Poços de petróleo/gás (posição e profundidade total) | Dados abertos ANP — citar a fonte |
+| Cadastro de poços do Sistema Aquífero Guarani (SAG) | Poços do SAG (posição e profundidade), arquivo KML do projeto | Citar a fonte original do cadastro |
+| OpenStreetMap contributors | Rios, estradas e localidades | ODbL 1.0 — © OpenStreetMap contributors |
+| Esri World Imagery | Imagem de satélite (tiles e textura) | Termos da Esri — uso com atribuição |
+| CARTO / OpenTopoMap | Mapas base do webmap | Atribuição nos próprios mapas (OSM, SRTM, OpenTopoMap CC-BY-SA) |
+| AWS Terrain Tiles (formato Terrarium) | Relevo e batimetria regionais (derivados de SRTM, GEBCO e outras fontes) | Atribuição conforme o provedor dos tiles |
+| Plotly.js (MIT), Leaflet (BSD-2-Clause) | Bibliotecas de visualização embutidas/carregadas nas páginas | Licenças originais |
+
+## Como citar
+
+> JESUS, A. H. de. **Taió Plumbing System — Hub**, versão 1.0. 2026. Projeto *Taió Plumbing System* — Mestrado em Geologia, UFSC. Disponível em: <https://tplumbingsystem.github.io/TPS_HUB/>.
+
+## Autoria
+
+**Afonso Henrique de Jesus** — Mestrado em Geologia, Universidade Federal de Santa Catarina (UFSC).
+Projeto: *Architecture and Geochemical Evolution of the Taió Intrusive Plumbing System* (Taió, SC — Bacia do Paraná).
