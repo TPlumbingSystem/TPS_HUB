@@ -34,6 +34,10 @@ Inclui ainda a síntese da identidade visual do projeto (paleta, regras de uso e
 
 Tipografia: Montserrat (títulos), Inter (texto), IBM Plex Mono (dados).
 
+## Idioma
+
+O botão **EN / PT** alterna a página entre português e inglês; a escolha é lembrada no navegador e repassada aos aplicativos pelo parâmetro `?lang=en`. Cada aplicativo traz também o botão **← Hub** para voltar a esta página.
+
 ## Uso
 
 Abra `index.html` no navegador ou acesse a versão publicada (GitHub Pages). Não requer instalação nem servidor.
